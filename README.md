@@ -2,6 +2,7 @@
 With this App you can play the card game "Brain Metrix", also known as "Memory", on your iOS Device.
 
 # Features
+* created a revealing splash view and installed dependencies
 * shuffle cards
 * match cards
 * scoring system (+2 for found matches, -1 if selected card was flipped before and mismatched, bonus/deduction dependant on how much time it took to match/mismatch two cards)

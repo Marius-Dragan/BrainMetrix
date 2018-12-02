@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Brain_Metrix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuP-5r-TmY">
+                                <rect key="frame" x="156.5" y="20" width="62" height="41"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iMW-0q-oM6">
+                                <rect key="frame" x="16" y="632" width="361" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ob0-S1-qUy">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="40"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nme-bV-GkB">
+                                        <rect key="frame" x="123" y="0.0" width="115" height="40"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="NEW GAME"/>
+                                        <connections>
+                                            <action selector="newGameBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mce-9G-s6v"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="hD9-5n-cwr">
+                                        <rect key="frame" x="246" y="0.0" width="115" height="40"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UVo-Zp-2Fo">
+                                <rect key="frame" x="16" y="61" width="343" height="403.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qvf-7p-lll">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="95"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43t-5S-gLQ" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qs2-F8-xN7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebd-fv-HsR" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJP-aY-7gh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN4-Cv-5oX" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="140.5" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tMM-lH-cCC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcN-SY-A7b" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="210.5" y="0.0" width="62.5" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nQN-aO-kFI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-uD-8pj" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="281" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9E0-gx-DjD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EaT-XR-CfK">
+                                        <rect key="frame" x="0.0" y="103" width="343" height="94.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfL-zf-ctN" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="94.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t6G-69-gqZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIg-uk-FIe" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="94.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tHr-XD-ThB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gef-2r-91g" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="140.5" y="0.0" width="62" height="94.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V63-O4-ktA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8I-0u-IXb" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="210.5" y="0.0" width="62.5" height="94.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3k-M6-zQl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KM-Kg-m1C" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="281" y="0.0" width="62" height="94.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="csi-Th-0So"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="joF-Jr-DZV">
+                                        <rect key="frame" x="0.0" y="205.5" width="343" height="95"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW3-SX-erh" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jo8-ih-V9f"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUD-d1-Eue" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hy8-ZI-lJA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zNb-Id-0Sn" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="140.5" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAi-MV-cUv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-fQ-o4c" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="210.5" y="0.0" width="62.5" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ujQ-Et-7v2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMx-UE-N09" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="281" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R0C-CZ-T2C"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DUb-Ap-Spw">
+                                        <rect key="frame" x="0.0" y="308.5" width="343" height="95"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXe-2o-eRN" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NrV-KV-2ZB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLr-Rr-WK1" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="70" y="0.0" width="62.5" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htu-F8-Qvg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MsT-0W-yJr" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="140.5" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JtS-qG-Ttc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcD-tN-8aR" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="210.5" y="0.0" width="62.5" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qpd-UY-8UV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b5-b4-owJ" customClass="StartButtons" customModule="Brain_Metrix" customModuleProvider="target">
+                                                <rect key="frame" x="281" y="0.0" width="62" height="95"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="50"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="75Z-Kj-KkK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="4kK-Zg-Lvm">
+                                <rect key="frame" x="187.5" y="564.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iMW-0q-oM6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="2" id="54p-lM-h9b"/>
+                            <constraint firstItem="UVo-Zp-2Fo" firstAttribute="bottom" secondItem="4kK-Zg-Lvm" secondAttribute="bottom" constant="-100" id="BES-e7-rg4"/>
+                            <constraint firstItem="iMW-0q-oM6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="5" id="P1S-BY-ich"/>
+                            <constraint firstItem="UVo-Zp-2Fo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Z24-kw-bxv"/>
+                            <constraint firstItem="UVo-Zp-2Fo" firstAttribute="top" secondItem="fuP-5r-TmY" secondAttribute="bottom" id="aMW-cv-K8q"/>
+                            <constraint firstItem="4kK-Zg-Lvm" firstAttribute="bottom" secondItem="iMW-0q-oM6" secondAttribute="bottom" constant="-107.66666666666663" id="dB8-NK-O50"/>
+                            <constraint firstItem="iMW-0q-oM6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dHi-rI-Pxh"/>
+                            <constraint firstItem="fuP-5r-TmY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mYr-GX-W9Q"/>
+                            <constraint firstItem="fuP-5r-TmY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o2h-xv-Yqe"/>
+                            <constraint firstItem="4kK-Zg-Lvm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rJ3-sU-Aye"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UVo-Zp-2Fo" secondAttribute="trailing" constant="16" id="uQL-t6-fq0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bonusLbl" destination="4kK-Zg-Lvm" id="1rl-HP-vk5"/>
+                        <outlet property="flipCountLbl" destination="ob0-S1-qUy" id="rmC-PT-GbI"/>
+                        <outlet property="newGameBtn" destination="Nme-bV-GkB" id="RJ3-Mz-GYF"/>
+                        <outlet property="scoreLbl" destination="hD9-5n-cwr" id="6xc-ax-ZmM"/>
+                        <outlet property="titleLbl" destination="fuP-5r-TmY" id="sD4-2h-85i"/>
+                        <outletCollection property="cardButtons" destination="43t-5S-gLQ" collectionClass="NSMutableArray" id="1Ae-bg-PJU"/>
+                        <outletCollection property="cardButtons" destination="ebd-fv-HsR" collectionClass="NSMutableArray" id="oM0-Ip-aS0"/>
+                        <outletCollection property="cardButtons" destination="qN4-Cv-5oX" collectionClass="NSMutableArray" id="hbv-mt-Sze"/>
+                        <outletCollection property="cardButtons" destination="dcN-SY-A7b" collectionClass="NSMutableArray" id="D0b-4a-f8B"/>
+                        <outletCollection property="cardButtons" destination="1JT-uD-8pj" collectionClass="NSMutableArray" id="QpN-du-XKS"/>
+                        <outletCollection property="cardButtons" destination="lfL-zf-ctN" collectionClass="NSMutableArray" id="Y5M-WF-HIU"/>
+                        <outletCollection property="cardButtons" destination="LIg-uk-FIe" collectionClass="NSMutableArray" id="iaf-uR-DHy"/>
+                        <outletCollection property="cardButtons" destination="Gef-2r-91g" collectionClass="NSMutableArray" id="Lde-Ln-7d4"/>
+                        <outletCollection property="cardButtons" destination="p8I-0u-IXb" collectionClass="NSMutableArray" id="tXZ-NK-P4N"/>
+                        <outletCollection property="cardButtons" destination="5KM-Kg-m1C" collectionClass="NSMutableArray" id="z9U-gd-utE"/>
+                        <outletCollection property="cardButtons" destination="IW3-SX-erh" collectionClass="NSMutableArray" id="Lec-Tk-eZ5"/>
+                        <outletCollection property="cardButtons" destination="LUD-d1-Eue" collectionClass="NSMutableArray" id="Iz1-19-xnw"/>
+                        <outletCollection property="cardButtons" destination="zNb-Id-0Sn" collectionClass="NSMutableArray" id="ejQ-Cd-cDe"/>
+                        <outletCollection property="cardButtons" destination="fFF-fQ-o4c" collectionClass="NSMutableArray" id="wNK-M5-fCU"/>
+                        <outletCollection property="cardButtons" destination="RMx-UE-N09" collectionClass="NSMutableArray" id="lgO-hM-pDb"/>
+                        <outletCollection property="cardButtons" destination="vXe-2o-eRN" collectionClass="NSMutableArray" id="swc-Fk-v4B"/>
+                        <outletCollection property="cardButtons" destination="BLr-Rr-WK1" collectionClass="NSMutableArray" id="e1O-SM-rm7"/>
+                        <outletCollection property="cardButtons" destination="MsT-0W-yJr" collectionClass="NSMutableArray" id="5Y4-77-Sqf"/>
+                        <outletCollection property="cardButtons" destination="gcD-tN-8aR" collectionClass="NSMutableArray" id="syK-8I-QLc"/>
+                        <outletCollection property="cardButtons" destination="1b5-b4-owJ" collectionClass="NSMutableArray" id="BUo-nQ-qqo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="22.906403940886701"/>
+        </scene>
+    </scenes>
+</document>

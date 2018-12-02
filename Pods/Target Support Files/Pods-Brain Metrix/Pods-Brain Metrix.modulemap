@@ -1,0 +1,6 @@
+framework module Pods_Brain_Metrix {
+  umbrella header "Pods-Brain Metrix-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2924B33521B3445F004EF2FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924B33421B3445F004EF2FE /* AppDelegate.swift */; };
+		2924B33721B3445F004EF2FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924B33621B3445F004EF2FE /* ViewController.swift */; };
+		2924B33A21B3445F004EF2FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2924B33821B3445F004EF2FE /* Main.storyboard */; };
+		2924B33D21B3445F004EF2FE /* Brain_Metrix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2924B33B21B3445F004EF2FE /* Brain_Metrix.xcdatamodeld */; };
+		2924B33F21B34460004EF2FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2924B33E21B34460004EF2FE /* Assets.xcassets */; };
+		2924B34221B34460004EF2FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2924B34021B34460004EF2FE /* LaunchScreen.storyboard */; };
+		2924B34E21B354DE004EF2FE /* BrainMetrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924B34D21B354DE004EF2FE /* BrainMetrix.swift */; };
+		2924B35021B354E9004EF2FE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924B34F21B354E9004EF2FE /* Card.swift */; };
+		2924B35221B354FB004EF2FE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924B35121B354FB004EF2FE /* Theme.swift */; };
+		293E8BC221B40612004A6E4A /* StartButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E8BC121B40612004A6E4A /* StartButtons.swift */; };
+		EB478A447B05FF4E68D67BD9 /* Pods_Brain_Metrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0968CAC256B9CC5B3567C2D /* Pods_Brain_Metrix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2924B33121B3445F004EF2FE /* Brain Metrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Metrix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2924B33421B3445F004EF2FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2924B33621B3445F004EF2FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2924B33921B3445F004EF2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2924B33C21B3445F004EF2FE /* Brain_Metrix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Brain_Metrix.xcdatamodel; sourceTree = "<group>"; };
+		2924B33E21B34460004EF2FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2924B34121B34460004EF2FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2924B34321B34460004EF2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2924B34D21B354DE004EF2FE /* BrainMetrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainMetrix.swift; sourceTree = "<group>"; };
+		2924B34F21B354E9004EF2FE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2924B35121B354FB004EF2FE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		293E8BC121B40612004A6E4A /* StartButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButtons.swift; sourceTree = "<group>"; };
+		32D6933C3F1FC7189B0F75E8 /* Pods-Brain Metrix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain Metrix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brain Metrix/Pods-Brain Metrix.release.xcconfig"; sourceTree = "<group>"; };
+		7BDA53ED928CA26DC2A9FD81 /* Pods-Brain Metrix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brain Metrix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brain Metrix/Pods-Brain Metrix.debug.xcconfig"; sourceTree = "<group>"; };
+		C0968CAC256B9CC5B3567C2D /* Pods_Brain_Metrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brain_Metrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2924B32E21B3445F004EF2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB478A447B05FF4E68D67BD9 /* Pods_Brain_Metrix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2924B32821B3445F004EF2FE = {
+			isa = PBXGroup;
+			children = (
+				2924B33321B3445F004EF2FE /* Brain Metrix */,
+				2924B33221B3445F004EF2FE /* Products */,
+				E120D7CBA03602658F2E4C1D /* Pods */,
+				C12124D176931C244665332F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2924B33221B3445F004EF2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2924B33121B3445F004EF2FE /* Brain Metrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2924B33321B3445F004EF2FE /* Brain Metrix */ = {
+			isa = PBXGroup;
+			children = (
+				2924B34A21B344CA004EF2FE /* Model */,
+				2924B34B21B344D1004EF2FE /* View */,
+				2924B34C21B344D8004EF2FE /* Controller */,
+				2924B33821B3445F004EF2FE /* Main.storyboard */,
+				2924B34321B34460004EF2FE /* Info.plist */,
+				2924B33B21B3445F004EF2FE /* Brain_Metrix.xcdatamodeld */,
+				2924B34921B344AA004EF2FE /* Supporting files */,
+			);
+			path = "Brain Metrix";
+			sourceTree = "<group>";
+		};
+		2924B34921B344AA004EF2FE /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2924B33421B3445F004EF2FE /* AppDelegate.swift */,
+				2924B33E21B34460004EF2FE /* Assets.xcassets */,
+				2924B34021B34460004EF2FE /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		2924B34A21B344CA004EF2FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2924B34D21B354DE004EF2FE /* BrainMetrix.swift */,
+				2924B34F21B354E9004EF2FE /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2924B34B21B344D1004EF2FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2924B35121B354FB004EF2FE /* Theme.swift */,
+				293E8BC121B40612004A6E4A /* StartButtons.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2924B34C21B344D8004EF2FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2924B33621B3445F004EF2FE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C12124D176931C244665332F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0968CAC256B9CC5B3567C2D /* Pods_Brain_Metrix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E120D7CBA03602658F2E4C1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BDA53ED928CA26DC2A9FD81 /* Pods-Brain Metrix.debug.xcconfig */,
+				32D6933C3F1FC7189B0F75E8 /* Pods-Brain Metrix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2924B33021B3445F004EF2FE /* Brain Metrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2924B34621B34460004EF2FE /* Build configuration list for PBXNativeTarget "Brain Metrix" */;
+			buildPhases = (
+				5F7A94B5608E17A70566A6C3 /* [CP] Check Pods Manifest.lock */,
+				2924B32D21B3445F004EF2FE /* Sources */,
+				2924B32E21B3445F004EF2FE /* Frameworks */,
+				2924B32F21B3445F004EF2FE /* Resources */,
+				81CA976692BADA506D58F07B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brain Metrix";
+			productName = "Brain Metrix";
+			productReference = 2924B33121B3445F004EF2FE /* Brain Metrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2924B32921B3445F004EF2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Marius Dragan";
+				TargetAttributes = {
+					2924B33021B3445F004EF2FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2924B32C21B3445F004EF2FE /* Build configuration list for PBXProject "Brain Metrix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2924B32821B3445F004EF2FE;
+			productRefGroup = 2924B33221B3445F004EF2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2924B33021B3445F004EF2FE /* Brain Metrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2924B32F21B3445F004EF2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2924B34221B34460004EF2FE /* LaunchScreen.storyboard in Resources */,
+				2924B33F21B34460004EF2FE /* Assets.xcassets in Resources */,
+				2924B33A21B3445F004EF2FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7A94B5608E17A70566A6C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brain Metrix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81CA976692BADA506D58F07B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Brain Metrix/Pods-Brain Metrix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brain Metrix/Pods-Brain Metrix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2924B32D21B3445F004EF2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2924B33721B3445F004EF2FE /* ViewController.swift in Sources */,
+				2924B34E21B354DE004EF2FE /* BrainMetrix.swift in Sources */,
+				2924B35021B354E9004EF2FE /* Card.swift in Sources */,
+				2924B35221B354FB004EF2FE /* Theme.swift in Sources */,
+				293E8BC221B40612004A6E4A /* StartButtons.swift in Sources */,
+				2924B33D21B3445F004EF2FE /* Brain_Metrix.xcdatamodeld in Sources */,
+				2924B33521B3445F004EF2FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2924B33821B3445F004EF2FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2924B33921B3445F004EF2FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2924B34021B34460004EF2FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2924B34121B34460004EF2FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2924B34421B34460004EF2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2924B34521B34460004EF2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2924B34721B34460004EF2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDA53ED928CA26DC2A9FD81 /* Pods-Brain Metrix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_OBJC_ATSYNC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68DHP7555D;
+				INFOPLIST_FILE = "Brain Metrix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariusdragan.Brain-Metrix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2924B34821B34460004EF2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D6933C3F1FC7189B0F75E8 /* Pods-Brain Metrix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_OBJC_ATSYNC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68DHP7555D;
+				INFOPLIST_FILE = "Brain Metrix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariusdragan.Brain-Metrix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2924B32C21B3445F004EF2FE /* Build configuration list for PBXProject "Brain Metrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2924B34421B34460004EF2FE /* Debug */,
+				2924B34521B34460004EF2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2924B34621B34460004EF2FE /* Build configuration list for PBXNativeTarget "Brain Metrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2924B34721B34460004EF2FE /* Debug */,
+				2924B34821B34460004EF2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2924B33B21B3445F004EF2FE /* Brain_Metrix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2924B33C21B3445F004EF2FE /* Brain_Metrix.xcdatamodel */,
+			);
+			currentVersion = 2924B33C21B3445F004EF2FE /* Brain_Metrix.xcdatamodel */;
+			path = Brain_Metrix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2924B32921B3445F004EF2FE /* Project object */;
+}

@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BF19D5C50B64DD5D5637256356D4648 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C23C32D2AC60319C0840B663464D2A0 /* Pods-Brain Metrix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0824A00C801A170EC4FBF5432F3CFD55 /* Pods-Brain Metrix-dummy.m */; };
+		660FF6E420FEFD1CA5DAF63BE66B69C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		6A2763C3CC8DB7CBE2D1ED29AC0D259D /* Pods-Brain Metrix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C3804BB114296DE4AD8E727DB5642C /* Pods-Brain Metrix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D9145048D6DC06084C44CFB3BB67CA6 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC339CAF9E24CADD0D3CD426CAE16E3 /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */; };
+		B3259607A67FE574A244A689F6B5CF83 /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */; };
+		B6C0A5300B3A270250E7646643040A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D4617862EE6549D742983E449D0A596E /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */; };
+		DEE1255FA09C6FC00AAEE59907775936 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */; };
+		E2C98D1784EEA81F8F5601CA476A7C3D /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F618604DA8097F70C819CF3E14CFD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D6A9CFDF9A0A8313481E65E1C422DB;
+			remoteInfo = RevealingSplashView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010839D259C8D2CFE25B75D41FDA3D64 /* Pods-Brain Metrix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brain Metrix.release.xcconfig"; sourceTree = "<group>"; };
+		01086F823C4951ED5239A5FDBD8E4997 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		0824A00C801A170EC4FBF5432F3CFD55 /* Pods-Brain Metrix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brain Metrix-dummy.m"; sourceTree = "<group>"; };
+		08DC312FE62359B96DD05582171EE3D7 /* Pods-Brain Metrix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brain Metrix-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		19C3804BB114296DE4AD8E727DB5642C /* Pods-Brain Metrix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brain Metrix-umbrella.h"; sourceTree = "<group>"; };
+		1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
+		24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
+		8734D4FE66E58214B374BD0E5417703A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
+		98F9D755371B09861903464EEDA06DF8 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5932A0BAF0169B44750F63D92ADD9D /* Pods-Brain Metrix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brain Metrix-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD04EDFC249D44E9077F401342E8A340 /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		CA2207DC64689D9D8463A53360115867 /* Pods-Brain Metrix-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brain Metrix-frameworks.sh"; sourceTree = "<group>"; };
+		CA521278A7804ECBAC0AEC59E55E891B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		ED58EB7D2EA52EA17E0A628F9CADC4B0 /* Pods-Brain Metrix-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brain Metrix-resources.sh"; sourceTree = "<group>"; };
+		EF4929AD44C6FF8F342355D35FFEFDB9 /* Pods-Brain Metrix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brain Metrix.modulemap"; sourceTree = "<group>"; };
+		F1803E92F7A7C7E2701412A3297EA11E /* Pods_Brain_Metrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brain_Metrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF813BC8417C93F58900E723AC34DA7 /* Pods-Brain Metrix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brain Metrix.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8676A2923E9DB40F3B504794B9AF50CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660FF6E420FEFD1CA5DAF63BE66B69C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC347CCAB411715CF89F43E62B1D1478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C0A5300B3A270250E7646643040A1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0054B4167ECF9B4D249AE71E99E94715 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8734D4FE66E58214B374BD0E5417703A /* Info.plist */,
+				BD04EDFC249D44E9077F401342E8A340 /* RevealingSplashView.modulemap */,
+				1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */,
+				24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */,
+				01086F823C4951ED5239A5FDBD8E4997 /* RevealingSplashView-prefix.pch */,
+				34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
+			sourceTree = "<group>";
+		};
+		07755B4896CDFAE6CA9A5618DDA831F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1803E92F7A7C7E2701412A3297EA11E /* Pods_Brain_Metrix.framework */,
+				98F9D755371B09861903464EEDA06DF8 /* RevealingSplashView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A65752587427F95CEB7CE3C776690E /* Pods-Brain Metrix */ = {
+			isa = PBXGroup;
+			children = (
+				CA521278A7804ECBAC0AEC59E55E891B /* Info.plist */,
+				EF4929AD44C6FF8F342355D35FFEFDB9 /* Pods-Brain Metrix.modulemap */,
+				08DC312FE62359B96DD05582171EE3D7 /* Pods-Brain Metrix-acknowledgements.markdown */,
+				BC5932A0BAF0169B44750F63D92ADD9D /* Pods-Brain Metrix-acknowledgements.plist */,
+				0824A00C801A170EC4FBF5432F3CFD55 /* Pods-Brain Metrix-dummy.m */,
+				CA2207DC64689D9D8463A53360115867 /* Pods-Brain Metrix-frameworks.sh */,
+				ED58EB7D2EA52EA17E0A628F9CADC4B0 /* Pods-Brain Metrix-resources.sh */,
+				19C3804BB114296DE4AD8E727DB5642C /* Pods-Brain Metrix-umbrella.h */,
+				FFF813BC8417C93F58900E723AC34DA7 /* Pods-Brain Metrix.debug.xcconfig */,
+				010839D259C8D2CFE25B75D41FDA3D64 /* Pods-Brain Metrix.release.xcconfig */,
+			);
+			name = "Pods-Brain Metrix";
+			path = "Target Support Files/Pods-Brain Metrix";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D91FEAE70316EE8A91F65526A35FC97E /* Pods */,
+				07755B4896CDFAE6CA9A5618DDA831F9 /* Products */,
+				8735B3A8DDEDFFA50307DD5F5089728E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8735B3A8DDEDFFA50307DD5F5089728E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38A65752587427F95CEB7CE3C776690E /* Pods-Brain Metrix */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D91FEAE70316EE8A91F65526A35FC97E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */,
+				D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */,
+				1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */,
+				ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */,
+				959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */,
+				0054B4167ECF9B4D249AE71E99E94715 /* Support Files */,
+			);
+			path = RevealingSplashView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6062676663D3F682D10785B853688DC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9145048D6DC06084C44CFB3BB67CA6 /* RevealingSplashView-umbrella.h in Headers */,
+				3BF19D5C50B64DD5D5637256356D4648 /* RevealingSplashView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F39DF27479276C4F22B44E189588D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2763C3CC8DB7CBE2D1ED29AC0D259D /* Pods-Brain Metrix-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71D6A9CFDF9A0A8313481E65E1C422DB /* RevealingSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450EC166303B0D80AC4578C8FB353AE /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildPhases = (
+				6062676663D3F682D10785B853688DC1 /* Headers */,
+				7CAA8B57300013A551DE6A9FA495D1EA /* Sources */,
+				8676A2923E9DB40F3B504794B9AF50CC /* Frameworks */,
+				4DB19789421C58A70D40F879D947A44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = 98F9D755371B09861903464EEDA06DF8 /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CF66B02C57A67B9C1DA1E15EAB6C2EE /* Pods-Brain Metrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79594B825C37157CF6D2CB9EA0D5F8E9 /* Build configuration list for PBXNativeTarget "Pods-Brain Metrix" */;
+			buildPhases = (
+				85F39DF27479276C4F22B44E189588D0 /* Headers */,
+				7B09FC18A903984E13A86016F7A8A3D1 /* Sources */,
+				AC347CCAB411715CF89F43E62B1D1478 /* Frameworks */,
+				6B9C74618B353FD9B4C5A294AD467639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAE97F5E337084F16515F58BAB5DA58 /* PBXTargetDependency */,
+			);
+			name = "Pods-Brain Metrix";
+			productName = "Pods-Brain Metrix";
+			productReference = F1803E92F7A7C7E2701412A3297EA11E /* Pods_Brain_Metrix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					71D6A9CFDF9A0A8313481E65E1C422DB = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 07755B4896CDFAE6CA9A5618DDA831F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF66B02C57A67B9C1DA1E15EAB6C2EE /* Pods-Brain Metrix */,
+				71D6A9CFDF9A0A8313481E65E1C422DB /* RevealingSplashView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB19789421C58A70D40F879D947A44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9C74618B353FD9B4C5A294AD467639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B09FC18A903984E13A86016F7A8A3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C23C32D2AC60319C0840B663464D2A0 /* Pods-Brain Metrix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CAA8B57300013A551DE6A9FA495D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE1255FA09C6FC00AAEE59907775936 /* Animations.swift in Sources */,
+				D4617862EE6549D742983E449D0A596E /* RevealingSplashView-dummy.m in Sources */,
+				7EC339CAF9E24CADD0D3CD426CAE16E3 /* RevealingSplashView.swift in Sources */,
+				E2C98D1784EEA81F8F5601CA476A7C3D /* SplashAnimatable.swift in Sources */,
+				B3259607A67FE574A244A689F6B5CF83 /* SplashAnimationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BAE97F5E337084F16515F58BAB5DA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevealingSplashView;
+			target = 71D6A9CFDF9A0A8313481E65E1C422DB /* RevealingSplashView */;
+			targetProxy = 30F618604DA8097F70C819CF3E14CFD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		189748B04B00A5EE1E0648EDF5AC2D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26E6A60B70A0400516592DE4A40A3C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010839D259C8D2CFE25B75D41FDA3D64 /* Pods-Brain Metrix.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brain Metrix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brain Metrix/Pods-Brain Metrix.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45980B1B7E1CD6889E1409171101E53E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF813BC8417C93F58900E723AC34DA7 /* Pods-Brain Metrix.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brain Metrix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brain Metrix/Pods-Brain Metrix.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F243BEAA55210E65C0702CA385BF407E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4450EC166303B0D80AC4578C8FB353AE /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F243BEAA55210E65C0702CA385BF407E /* Debug */,
+				189748B04B00A5EE1E0648EDF5AC2D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79594B825C37157CF6D2CB9EA0D5F8E9 /* Build configuration list for PBXNativeTarget "Pods-Brain Metrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45980B1B7E1CD6889E1409171101E53E /* Debug */,
+				26E6A60B70A0400516592DE4A40A3C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

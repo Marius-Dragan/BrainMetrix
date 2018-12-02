@@ -1,4 +1,7 @@
 # Brain-Metrix
 Card game memory
-# BrainMetrix
-# BrainMetrix
+
+# Overview
+
+Having multiple thems and shuffles cards
+
